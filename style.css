@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 12px;
+    min-height: 100vh;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    z-index: 1000;
+}
+
+header a {
+    color: whitesmoke;
+    margin-right: 40px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+.container .list .list-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container .list .list-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(85%);
+}
+
+.container .list .list-item .content {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-right: 30%;
+    width: 80%;
+    color: whitesmoke;
+    text-shadow: 0 5px 10px #000;
+}
+
+.container .list .list-item .title {
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.container .list .list-item .description {
+    font-size: 1.5em;
+}
+
+.container .list .list-item .buttons {
+    margin-top: 10px;
+}
+
+.container .list .list-item .buttons button:hover {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    transition: 0.7s;
+}
+
+.container .thumb {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .thumb .thumb-item {
+    width: 115px;
+    height: 190px;
+    position: relative;
+}
+
+.container .thumb .thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter:brightness(80%);
+}
+
+.container .thumb .content {
+    position: absolute;
+    bottom: 10px;
+    left: 4px;
+}
+
+.container .arrows {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    width: 300px;
+    margin-left: 120px;
+}
+
+.container .arrows button {
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: #eee4;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container .arrows button:hover {
+    background-color: whitesmoke;
+    color: #000;
+    transition: 0.7s;
+}
+
+.footer{
+    background-color: rgb(42, 37, 37);
+    width: auto;
+    z-index: 1000;
+}
+
+.contenu-footer{
+   margin: 0 auto;
+   display: flex;
+   align-items: flex-start;
+   font-size: 20px;
+   padding: 3px;
+   gap: 50px;
+}
+
+
+

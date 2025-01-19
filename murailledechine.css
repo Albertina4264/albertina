@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/grande muraille.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+    padding-top: 15px;
+    display: flex;
+    z-index: 1000;
+}
+
+header a {
+    margin-right: 40px;
+    font-weight: 300;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+#contenu{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: block;
+}
+
+.eu {
+    padding-top: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: rgb(42, 37, 37);
+    width: auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.contenu-footer{
+   margin: 0 auto;
+   display: flex;
+   font-size: 20px;
+   padding: 3px;
+   color: #fff;
+   gap: 50px;
+}
